@@ -15,13 +15,13 @@
  
 <body>
 <script>
-	function click(this){
-		this.style.color = red;
+	function myfunc(){
+		document.getElementById("p").innerHTML = "Hello JavaScript!";
 	}
 </script>
 	<h2>b10809001</h2>
-	<p>i love writing php</p>
-	<button onclick="click(this)">click me</button>
+	<p id="p">i love writing php</p>
+	<button onclick="myfunc()">click me</button>
 
 	
 </body>
